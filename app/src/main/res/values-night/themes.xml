@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SleepTrackerApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/lavender</item>
+        <item name="colorPrimaryVariant">@color/night_blue</item>
+        <item name="colorOnPrimary">@color/pale_purple</item>
+        <item name="colorSecondary">@color/pink_dream</item>
+        <item name="colorSecondaryVariant">@color/pink_dream</item>
+        <item name="colorOnSecondary">@color/pale_purple</item>
+        <item name="android:statusBarColor">@color/soft_eggplant</item>
+        <item name="android:windowBackground">@color/soft_eggplant</item>
+        <item name="android:textColor">@color/pale_purple</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

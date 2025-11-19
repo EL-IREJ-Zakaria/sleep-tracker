@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/soft_eggplant"
+    android:padding="24dp">
+
+    <!-- En-tête -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suivi du sommeil"
+            android:textColor="@color/lavender"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_centerInParent="true"/>
+
+        <ImageButton
+            android:id="@+id/btn_close"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_close"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="Fermer"
+            app:tint="@color/pale_purple" />
+
+    </RelativeLayout>
+
+    <!-- Heure actuelle -->
+    <TextView
+        android:id="@+id/tv_current_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heure actuelle: --:--"
+        android:textColor="@color/pale_purple"
+        android:textSize="16sp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"/>
+
+    <!-- Durée du sommeil -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:hintTextColor="@color/night_blue"
+        app:boxStrokeColor="@color/night_blue"
+        app:boxBackgroundColor="@color/soft_eggplant">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_sleep_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Durée (HH:MM)"
+            android:textColor="@color/pale_purple"
+            android:inputType="number"
+            android:maxLines="1"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Qualité du sommeil -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="24dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Qualité:"
+            android:textColor="@color/pale_purple"
+            android:textSize="16sp"/>
+
+        <Spinner
+            android:id="@+id/spinner_sleep_quality"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/spinner_background"
+            android:popupBackground="@color/soft_eggplant"/>
+
+    </LinearLayout>
+
+    <!-- Boutons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_start_manual"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="Démarrer le suivi"
+            android:textColor="@color/soft_eggplant"
+            android:backgroundTint="@color/lavender"
+            android:textSize="14sp"
+            app:cornerRadius="12dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_add_manual"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="Ajouter manuellement"
+            android:textColor="@color/pale_purple"
+            android:backgroundTint="@color/night_blue"
+            android:textSize="14sp"
+            app:cornerRadius="12dp"/>
+
+    </LinearLayout>
+
+    <!-- Note -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Le suivi automatique enregistre la durée réelle de votre sommeil"
+        android:textColor="@color/night_blue"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:lineSpacingExtra="4dp"/>
+
+</LinearLayout>

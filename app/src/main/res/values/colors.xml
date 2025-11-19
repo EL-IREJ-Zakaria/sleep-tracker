@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="soft_eggplant">#2E1065</color>
+    <color name="lavender">#C084FC</color>
+    <color name="pink_dream">#E879F9</color>
+    <color name="night_blue">#4C1D95</color>
+    <color name="pale_purple">#FAF5FF</color>
+
+    <!-- Keeping black for general use if needed, but text should primarily use pale_purple -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="icon_unselected">#38194F</color>
+    <color name="purple_primary">purple</color>
+</resources>
