@@ -1,36 +1,341 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/soft_eggplant"
-    android:padding="32dp">
+    android:background="@color/soft_eggplant">
 
-    <TextView
-        android:id="@+id/tv_account_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Mon Compte"
-        android:textColor="@color/lavender"
-        android:textSize="32sp"
-        android:fontFamily="sans-serif-medium"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="50dp"/>
-
-    <Button
-        android:id="@+id/btn_logout"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:text="Déconnexion"
-        android:textSize="16sp"
-        android:fontFamily="sans-serif-medium"
-        android:textColor="@color/soft_eggplant"
-        android:shadowColor="@color/night_blue"
-        android:backgroundTint="@color/pink_dream" 
-        android:textAllCaps="false"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        android:layout_height="wrap_content"
+        android:padding="24dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/tv_account_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mon Compte"
+            android:textColor="@color/lavender"
+            android:textSize="32sp"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.02"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="20dp"/>
+
+        <!-- Carte Profil Utilisateur -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_user_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            app:cardBackgroundColor="@color/night_blue"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            app:layout_constraintTop_toBottomOf="@id/tv_account_title">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                android:gravity="center_vertical">
+
+                <!-- Avatar -->
+                <TextView
+                    android:id="@+id/tv_user_avatar"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:text="👤"
+                    android:textSize="40sp"
+                    android:gravity="center"
+                    android:background="@drawable/circle_progress"
+                    android:backgroundTint="@color/lavender"/>
+
+                <!-- Info Utilisateur -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginStart="20dp">
+
+                    <TextView
+                        android:id="@+id/tv_user_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nom d'utilisateur"
+                        android:textColor="@color/lavender"
+                        android:textSize="20sp"
+                        android:fontFamily="sans-serif-medium"
+                        android:layout_marginBottom="8dp"/>
+
+                    <TextView
+                        android:id="@+id/tv_user_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="email@example.com"
+                        android:textColor="@color/pale_purple"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tv_member_since"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Membre depuis: 2024"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="12sp"
+                        android:layout_marginTop="4dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Carte Statistiques -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_statistics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardBackgroundColor="@color/night_blue"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            app:layout_constraintTop_toBottomOf="@id/card_user_profile">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📊 Statistiques"
+                    android:textColor="@color/lavender"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:layout_marginBottom="16dp"/>
+
+                <!-- Ligne de stats -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <!-- Sessions enregistrées -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/tv_total_sessions"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textColor="@color/pink_dream"
+                            android:textSize="24sp"
+                            android:fontFamily="sans-serif-medium"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sessions"
+                            android:textColor="@color/pale_purple"
+                            android:textSize="12sp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                    <!-- Moyenne de sommeil -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/tv_avg_sleep"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0h"
+                            android:textColor="@color/pink_dream"
+                            android:textSize="24sp"
+                            android:fontFamily="sans-serif-medium"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Moyenne"
+                            android:textColor="@color/pale_purple"
+                            android:textSize="12sp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                    <!-- Objectifs atteints -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/tv_goals_achieved"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textColor="@color/pink_dream"
+                            android:textSize="24sp"
+                            android:fontFamily="sans-serif-medium"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Objectifs"
+                            android:textColor="@color/pale_purple"
+                            android:textSize="12sp"
+                            android:layout_marginTop="4dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Carte Informations du compte -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_account_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardBackgroundColor="@color/night_blue"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp"
+            app:layout_constraintTop_toBottomOf="@id/card_statistics">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ℹ️ Informations du compte"
+                    android:textColor="@color/lavender"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:layout_marginBottom="16dp"/>
+
+                <!-- ID Utilisateur -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="12dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="ID Utilisateur:"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tv_user_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="********"
+                        android:textColor="@color/pale_purple"
+                        android:textSize="14sp"
+                        android:fontFamily="sans-serif-medium"/>
+
+                </LinearLayout>
+
+                <!-- Date de création -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="12dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Compte créé le:"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tv_account_created"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="01/01/2024"
+                        android:textColor="@color/pale_purple"
+                        android:textSize="14sp"
+                        android:fontFamily="sans-serif-medium"/>
+
+                </LinearLayout>
+
+                <!-- Dernière connexion -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Dernière connexion:"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/tv_last_login"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aujourd'hui"
+                        android:textColor="@color/pale_purple"
+                        android:textSize="14sp"
+                        android:fontFamily="sans-serif-medium"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Bouton Déconnexion -->
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:text="🚪 Déconnexion"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/soft_eggplant"
+            android:backgroundTint="@color/pink_dream"
+            android:textAllCaps="false"
+            app:cornerRadius="16dp"
+            app:layout_constraintTop_toBottomOf="@id/card_account_info"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

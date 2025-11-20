@@ -1,2 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">SleepTracker</string>
+    <string name="app_subtitle">تتبع نومك</string>
+    <string name="app_logo">شعار التطبيق</string>
+    <string name="background_desc">صورة الخلفية</string>
+    <string name="tip_icon_desc">أيقونة نصيحة النوم</string>
+
+    <!-- نصائح احترافية للنوم الأفضل -->
+    <!-- REGULAR SCHEDULE -->
+    <string name="tip_regular_schedule_title">حافظ على جدول نوم منتظم</string>
+    <string name="tip_regular_schedule_desc">اذهب للنوم واستيقظ في نفس الوقت كل يوم، حتى في عطلة نهاية الأسبوع. هذا الانتظام يعزز ساعتك البيولوجية ويحسن جودة النوم.</string>
+
+    <string name="tip_wake_time_title">حدد وقت استيقاظ ثابت</string>
+    <string name="tip_wake_time_desc">وقت الاستيقاظ أكثر أهمية من وقت النوم. استيقظ دائمًا في نفس الوقت، حتى بعد ليلة سيئة من النوم.</string>
+
+    <string name="tip_bed_sleep_only_title">خصص السرير للنوم فقط</string>
+    <string name="tip_bed_sleep_only_desc">استخدم سريرك للنوم فقط. تجنب العمل أو الأكل أو استخدام الشاشات في السرير. هذا يعزز الارتباط الذهني بين السرير والنوم.</string>
+
+    <!-- SLEEP ENVIRONMENT -->
+    <string name="tip_dark_room_title">نم في ظلام تام</string>
+    <string name="tip_dark_room_desc">حتى الضوء الخفيف يعطل إنتاج الميلاتونين، هرمون النوم. استخدم ستائر معتمة أو قناع النوم.</string>
+
+    <string name="tip_temperature_title">حافظ على درجة حرارة باردة</string>
+    <string name="tip_temperature_desc">درجة الحرارة المثالية للنوم بين 16 و19 درجة مئوية. البيئة الباردة تعزز انخفاض درجة حرارة الجسم اللازم للنوم.</string>
+
+    <string name="tip_quiet_room_title">أنشئ بيئة هادئة</string>
+    <string name="tip_quiet_room_desc">قلل الضوضاء قدر الإمكان. إذا لزم الأمر، استخدم سدادات الأذن أو الضوضاء البيضاء.</string>
+
+    <!-- LIFESTYLE -->
+    <string name="tip_exercise_title">مارس الرياضة بانتظام</string>
+    <string name="tip_exercise_desc">التمارين الرياضية تحسن جودة النوم. فضل التمارين الصباحية أو بعد الظهر. تجنب التمارين المكثفة قبل النوم بـ 3-4 ساعات.</string>
+
+    <string name="tip_sunlight_title">تعرض لضوء الشمس الطبيعي</string>
+    <string name="tip_sunlight_desc">اقض وقتًا في الخارج، خاصة في الصباح. ضوء النهار ينظم ساعتك البيولوجية.</string>
+
+    <string name="tip_screen_time_title">قلل استخدام الشاشات قبل النوم</string>
+    <string name="tip_screen_time_desc">توقف عن استخدام الشاشات قبل النوم بساعة أو ساعتين على الأقل. الضوء الأزرق يثبط الميلاتونين.</string>
+
+    <!-- RELAXATION TECHNIQUES -->
+    <string name="tip_relaxation_title">مارس تقنيات الاسترخاء</string>
+    <string name="tip_relaxation_desc">ادمج روتين مريح قبل النوم: التنفس العميق، التأمل الموجه، استرخاء العضلات، أو اليوغا اللطيفة.</string>
+
+    <string name="tip_worry_time_title">خصص وقتًا لمخاوفك</string>
+    <string name="tip_worry_time_desc">خصص 15 دقيقة في المساء لكتابة مخاوفك والحلول في دفتر يومياتك. هذا يمنع التفكير المفرط عند النوم.</string>
+
+    <!-- NUTRITION AND SUBSTANCES -->
+    <string name="tip_caffeine_title">تجنب الكافيين بعد الثانية ظهرًا</string>
+    <string name="tip_caffeine_desc">الكافيين له عمر نصف من 5-6 ساعات. عند تناوله بعد الظهر، يبقى في نظامك ويعطل النوم.</string>
+
+    <string name="tip_alcohol_title">قلل الكحول المسائي</string>
+    <string name="tip_alcohol_desc">بينما قد يساعد الكحول على النوم، إلا أنه يجزئ النوم ويقلل نوم حركة العين السريعة.</string>
+
+    <string name="tip_heavy_meals_title">تجنب الوجبات الثقيلة مساءً</string>
+    <string name="tip_heavy_meals_desc">تناول وجبة خفيفة على العشاء وأنهِ وجبتك قبل النوم بـ 2-3 ساعات.</string>
+
+    <!-- ADVANCED SPECIFIC TIPS -->
+    <string name="tip_sleep_restriction_title">قلل الوقت في السرير</string>
+    <string name="tip_sleep_restriction_desc">ابق في السرير فقط للوقت الذي تنام فيه فعليًا. هذه التقنية تزيد ضغط النوم وتحسن كفاءة النوم.</string>
+
+    <string name="tip_no_lying_awake_title">لا تبق مستيقظًا في السرير</string>
+    <string name="tip_no_lying_awake_desc">إذا لم تنم بعد 20 دقيقة، انهض وقم بنشاط هادئ في غرفة أخرى. عد إلى السرير فقط عندما تشعر بالنعاس.</string>
+
+    <string name="tip_nap_strategy_title">أدر القيلولة بذكاء</string>
+    <string name="tip_nap_strategy_desc">إذا كان عليك أخذ قيلولة، حددها بـ 20-30 دقيقة كحد أقصى وقبل الساعة 3 مساءً.</string>
+
+    <string name="tip_478_breathing_title">تقنية التنفس 4-7-8</string>
+    <string name="tip_478_breathing_desc">استنشق من أنفك لمدة 4 ثوانٍ، احبس نفسك 7 ثوانٍ، ازفر ببطء من فمك لمدة 8 ثوانٍ. كرر 4 مرات.</string>
+
+    <string name="tip_coherence_cardiaque_title">مارس تناسق القلب</string>
+    <string name="tip_coherence_cardiaque_desc">تنفس بإيقاع 5 ثوانٍ شهيق و5 ثوانٍ زفير لمدة 5 دقائق. هذه الممارسة المنتظمة تقلل التوتر.</string>
+
+    <string name="tip_night_awakening_title">تعامل مع الاستيقاظ الليلي بهدوء</string>
+    <string name="tip_night_awakening_desc">الاستيقاظ القصير طبيعي. لا تنظر للساعة، ابق هادئًا، تنفس بعمق.</string>
+
+    <string name="tip_clock_management_title">أخفِ ساعتك</string>
+    <string name="tip_clock_management_desc">لا تنظر إلى الوقت أثناء الليل. القلق من مرور الساعات يمنع العودة للنوم.</string>
+
+    <string name="tip_mattress_pillow_title">استثمر في فراش جيد</string>
+    <string name="tip_mattress_pillow_desc">المرتبة المريحة والمناسبة لنوع جسمك ضرورية. استبدل مرتبتك كل 7-10 سنوات.</string>
+
+    <string name="tip_bedroom_declutter_title">رتب غرفة نومك</string>
+    <string name="tip_bedroom_declutter_desc">غرفة نوم مرتبة وبسيطة تعزز الاسترخاء الذهني. أزل الأجهزة الإلكترونية ومستندات العمل.</string>
+
+    <string name="tip_sleep_foods_title">تناول أطعمة تعزز النوم</string>
+    <string name="tip_sleep_foods_desc">بعض الأطعمة الغنية بالتريبتوفان والمغنيسيوم والميلاتونين تساعد على النوم: الموز، اللوز، الكرز، الكيوي.</string>
+
+    <string name="tip_magnesium_title">تحقق من كمية المغنيسيوم</string>
+    <string name="tip_magnesium_desc">المغنيسيوم يلعب دورًا حاسمًا في استرخاء العضلات وتنظيم النوم. مصادر طبيعية: الخضروات الخضراء، المكسرات.</string>
+
+    <string name="tip_paradoxical_intention_title">جرب النية المتناقضة</string>
+    <string name="tip_paradoxical_intention_desc">إذا كنت تعاني من صعوبة في النوم، حاول البقاء مستيقظًا بعينين مفتوحتين في الظلام.</string>
+
+    <string name="tip_mental_imagery_title">استخدم التصور الإيجابي</string>
+    <string name="tip_mental_imagery_desc">تخيل مكانًا هادئًا وآمنًا بالتفصيل: شاطئ هادئ، غابة هادئة، حديقة زهور.</string>
+
+    <string name="tip_evening_routine_title">أنشئ طقوس قبل النوم</string>
+    <string name="tip_evening_routine_desc">أنشئ سلسلة من الأنشطة المريحة قبل النوم بـ 60-90 دقيقة: حمام دافئ، قراءة، موسيقى هادئة.</string>
+
+    <string name="tip_dim_lights_title">خفف الأضواء مساءً</string>
+    <string name="tip_dim_lights_desc">قلل شدة الضوء في بيئتك تدريجيًا قبل النوم بـ 2-3 ساعات. استخدم مصابيح دافئة.</string>
+
+    <string name="tip_yoga_sleep_title">مارس اليوغا المسائية</string>
+    <string name="tip_yoga_sleep_desc">الأوضاع اللطيفة مثل وضع الطفل أو الساقين على الحائط تعزز الاسترخاء. مارس 15-20 دقيقة قبل النوم.</string>
+
+    <string name="tip_progressive_relaxation_title">الاسترخاء العضلي التدريجي</string>
+    <string name="tip_progressive_relaxation_desc">شد ثم أرخ كل مجموعة عضلية، من القدمين إلى الرأس، محتفظًا بـ 5 ثوانٍ ثم الاسترخاء لـ 10 ثوانٍ.</string>
+
+    <string name="tip_journaling_title">احتفظ بدفتر الامتنان</string>
+    <string name="tip_journaling_desc">كل مساء، اكتب 3 أشياء إيجابية من يومك. هذه الممارسة تقلل القلق وتحسن المزاج.</string>
+
+    <string name="tip_meditation_title">تأمل قبل النوم</string>
+    <string name="tip_meditation_desc">التأمل الواعي يقلل النشاط الذهني والتوتر. ابدأ بـ 5-10 دقائق: ركز على تنفسك.</string>
+</resources>

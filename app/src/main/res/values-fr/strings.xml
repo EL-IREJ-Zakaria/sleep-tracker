@@ -3,4 +3,199 @@
     <string name="app_subtitle">Suivez votre sommeil</string>
     <string name="app_logo">Logo de l\'application</string>
     <string name="background_desc">Image de fond</string>
+    <string name="tip_icon_desc">Icône de conseil</string>
+
+    <!-- Conseils professionnels pour mieux dormir -->
+    <!-- Basés sur la TCC-I (Thérapie Cognitivo-Comportementale pour l'Insomnie) -->
+    <!-- et les recommandations des experts du sommeil -->
+
+    <!-- HORAIRES RÉGULIERS (Contrôle du stimulus) -->
+    <string name="tip_regular_schedule_title">Maintenez des horaires réguliers</string>
+    <string name="tip_regular_schedule_desc">Couchez-vous et levez-vous à la même heure chaque jour, même le week-end. Cette régularité renforce votre horloge biologique et améliore la qualité de votre sommeil. La constance est la clé d\'un sommeil réparateur.</string>
+
+    <string name="tip_wake_time_title">Fixez une heure de réveil constante</string>
+    <string name="tip_wake_time_desc">L\'heure du réveil est plus importante que l\'heure du coucher. Levez-vous toujours à la même heure, même après une mauvaise nuit. Cette discipline aide votre corps à réguler naturellement votre rythme veille-sommeil.</string>
+
+    <string name="tip_bed_sleep_only_title">Réservez le lit au sommeil</string>
+    <string name="tip_bed_sleep_only_desc">N\'utilisez votre lit que pour dormir et l\'intimité. Évitez d\'y travailler, manger ou regarder des écrans. Cette association mentale forte entre le lit et le sommeil facilite l\'endormissement et améliore la qualité du repos.</string>
+
+    <!-- ENVIRONNEMENT DE SOMMEIL -->
+    <string name="tip_dark_room_title">Dormez dans l\'obscurité complète</string>
+    <string name="tip_dark_room_desc">La lumière, même faible, perturbe la production de mélatonine, l\'hormone du sommeil. Utilisez des rideaux occultants ou un masque de sommeil. L\'obscurité signale à votre cerveau qu\'il est temps de dormir.</string>
+
+    <string name="tip_temperature_title">Gardez une température fraîche</string>
+    <string name="tip_temperature_desc">La température idéale pour dormir se situe entre 16°C et 19°C. Un environnement frais favorise la baisse naturelle de votre température corporelle nécessaire à l\'endormissement. Une chambre trop chaude perturbe le sommeil profond.</string>
+
+    <string name="tip_quiet_room_title">Créez un environnement calme</string>
+    <string name="tip_quiet_room_desc">Réduisez les bruits au minimum. Si nécessaire, utilisez des bouchons d\'oreilles, un masque sonore (bruit blanc ou rose), ou un ventilateur. Le silence ou un bruit constant doux favorise un sommeil ininterrompu et de meilleure qualité.</string>
+
+    <!-- STYLE DE VIE -->
+    <string name="tip_exercise_title">Pratiquez une activité physique régulière</string>
+    <string name="tip_exercise_desc">L\'exercice physique améliore la qualité du sommeil et facilite l\'endormissement. Privilégiez le matin ou l\'après-midi. Évitez l\'exercice intense 3 à 4 heures avant le coucher car il élève la température corporelle et stimule le système nerveux.</string>
+
+    <string name="tip_sunlight_title">Exposez-vous à la lumière naturelle</string>
+    <string name="tip_sunlight_desc">Passez du temps à l\'extérieur, surtout le matin. La lumière du jour régule votre horloge biologique et renforce le contraste jour-nuit. 30 minutes d\'exposition matinale améliorent significativement la qualité du sommeil nocturne.</string>
+
+    <string name="tip_screen_time_title">Limitez les écrans avant de dormir</string>
+    <string name="tip_screen_time_desc">Arrêtez les écrans (téléphone, tablette, ordinateur, TV) au moins 1 à 2 heures avant le coucher. La lumière bleue supprime la mélatonine et stimule le cerveau. Préférez la lecture d\'un livre papier ou des activités relaxantes.</string>
+
+    <!-- TECHNIQUES DE RELAXATION -->
+    <string name="tip_relaxation_title">Pratiquez des techniques de relaxation</string>
+    <string name="tip_relaxation_desc">Intégrez une routine relaxante avant le coucher : respiration profonde (4-7-8), méditation guidée, relaxation musculaire progressive ou yoga doux. Ces techniques réduisent le stress et préparent votre corps et esprit au sommeil.</string>
+
+    <string name="tip_worry_time_title">Planifiez un moment pour vos préoccupations</string>
+    <string name="tip_worry_time_desc">Réservez 15 minutes en début de soirée pour noter vos soucis et solutions dans un journal. Cette technique de \"temps des inquiétudes\" empêche les ruminations au moment du coucher et libère votre esprit pour un sommeil paisible.</string>
+
+    <!-- ALIMENTATION ET SUBSTANCES -->
+    <string name="tip_caffeine_title">Évitez la caféine après 14h</string>
+    <string name="tip_caffeine_desc">La caféine (café, thé, cola, chocolat, boissons énergisantes) a une demi-vie de 5 à 6 heures. Consommée l\'après-midi, elle reste dans votre système et perturbe l\'endormissement et la qualité du sommeil, même si vous ne le ressentez pas.</string>
+
+    <string name="tip_alcohol_title">Limitez l\'alcool le soir</string>
+    <string name="tip_alcohol_desc">Bien que l\'alcool puisse faciliter l\'endormissement, il fragmente le sommeil, réduit le sommeil paradoxal (REM) essentiel à la récupération mentale, et provoque des réveils nocturnes. Évitez l\'alcool 3 à 4 heures avant le coucher.</string>
+
+    <string name="tip_heavy_meals_title">Évitez les repas lourds le soir</string>
+    <string name="tip_heavy_meals_desc">Mangez léger au dîner et terminez votre repas 2 à 3 heures avant le coucher. La digestion d\'un repas copieux élève la température corporelle et peut causer de l\'inconfort, perturbant ainsi l\'endormissement et la qualité du sommeil.</string>
+
+    <!-- CONSEILS SPÉCIFIQUES AVANCÉS -->
+
+    <!-- Restriction du sommeil (Sleep Restriction) -->
+    <string name="tip_sleep_restriction_title">Limitez le temps au lit</string>
+    <string name="tip_sleep_restriction_desc">Ne restez au lit que le temps où vous dormez réellement. Si vous dormez 6 heures mais passez 8 heures au lit, réduisez votre temps au lit à 6h30. Cette technique augmente la pression du sommeil et améliore l\'efficacité du sommeil. À ajuster progressivement avec un médecin.</string>
+
+    <string name="tip_no_lying_awake_title">Ne restez pas éveillé au lit</string>
+    <string name="tip_no_lying_awake_desc">Si vous ne dormez pas après 20 minutes, levez-vous et faites une activité calme dans une autre pièce (lecture douce, étirements légers). Retournez au lit uniquement quand vous avez vraiment sommeil. Cela renforce l\'association lit-sommeil.</string>
+
+    <!-- Siestes -->
+    <string name="tip_nap_strategy_title">Gérez vos siestes intelligemment</string>
+    <string name="tip_nap_strategy_desc">Si vous devez faire une sieste, limitez-la à 20-30 minutes maximum et avant 15h. Une sieste courte améliore la vigilance sans affecter le sommeil nocturne. Les siestes longues ou tardives réduisent la pression du sommeil le soir.</string>
+
+    <!-- Techniques de respiration spécifiques -->
+    <string name="tip_478_breathing_title">Technique de respiration 4-7-8</string>
+    <string name="tip_478_breathing_desc">Inspirez par le nez pendant 4 secondes, retenez votre respiration 7 secondes, expirez lentement par la bouche pendant 8 secondes. Répétez 4 fois. Cette technique active le système nerveux parasympathique et favorise la relaxation profonde pour l\'endormissement.</string>
+
+    <string name="tip_coherence_cardiaque_title">Pratiquez la cohérence cardiaque</string>
+    <string name="tip_coherence_cardiaque_desc">Respirez selon un rythme de 5 secondes à l\'inspiration et 5 secondes à l\'expiration pendant 5 minutes. Cette pratique régulière (3 fois par jour) réduit le stress, équilibre le système nerveux et améliore significativement la qualité du sommeil.</string>
+
+    <!-- Gestion des réveils nocturnes -->
+    <string name="tip_night_awakening_title">Gérez les réveils nocturnes calmement</string>
+    <string name="tip_night_awakening_desc">Les réveils brefs sont normaux. Ne regardez pas l\'heure, restez calme, respirez profondément. Si vous êtes réveillé plus de 20 minutes, levez-vous plutôt que de ruminer au lit. Évitez les écrans et la lumière vive.</string>
+
+    <string name="tip_clock_management_title">Cachez votre réveil</string>
+    <string name="tip_clock_management_desc">Ne regardez pas l\'heure pendant la nuit. L\'anxiété de voir les heures défiler empêche de se rendormir. Tournez votre réveil ou utilisez seulement une alarme sans affichage visible. Concentrez-vous sur le repos plutôt que sur le temps.</string>
+
+    <!-- Environnement et literie -->
+    <string name="tip_mattress_pillow_title">Investissez dans une bonne literie</string>
+    <string name="tip_mattress_pillow_desc">Un matelas confortable et adapté à votre morphologie est essentiel. Remplacez votre matelas tous les 7-10 ans. Choisissez un oreiller qui maintient bien votre nuque. Des draps en fibres naturelles (coton, lin) favorisent une meilleure régulation thermique.</string>
+
+    <string name="tip_bedroom_declutter_title">Désencombrez votre chambre</string>
+    <string name="tip_bedroom_declutter_desc">Une chambre rangée et minimaliste favorise la détente mentale. Retirez les appareils électroniques, documents de travail et objets stimulants. Votre chambre doit être un sanctuaire dédié uniquement au repos et à la relaxation.</string>
+
+    <!-- Aliments et compléments -->
+    <string name="tip_sleep_foods_title">Consommez des aliments favorisant le sommeil</string>
+    <string name="tip_sleep_foods_desc">Certains aliments riches en tryptophane, magnésium et mélatonine aident au sommeil : banane, amandes, cerises, kiwi, lait chaud, tisane de camomille. Un petit encas léger 1h avant le coucher peut prévenir les réveils dus à la faim.</string>
+
+    <string name="tip_magnesium_title">Vérifiez votre apport en magnésium</string>
+    <string name="tip_magnesium_desc">Le magnésium joue un rôle crucial dans la relaxation musculaire et la régulation du sommeil. Sources naturelles : légumes verts, noix, graines, chocolat noir, bananes. Une carence peut perturber le sommeil. Consultez un médecin avant de prendre des suppléments.</string>
+
+    <!-- Techniques mentales avancées -->
+    <string name="tip_paradoxical_intention_title">Essayez l\'intention paradoxale</string>
+    <string name="tip_paradoxical_intention_desc">Si vous avez du mal à dormir, essayez de rester éveillé les yeux ouverts dans le noir. Cette technique psychologique réduit l\'anxiété de performance liée au sommeil. Paradoxalement, en arrêtant d\'essayer de dormir, vous vous endormez plus facilement.</string>
+
+    <string name="tip_mental_imagery_title">Utilisez l\'imagerie mentale positive</string>
+    <string name="tip_mental_imagery_desc">Visualisez un lieu paisible et sécurisant en détail : plage calme, forêt tranquille, jardin fleuri. Engagez tous vos sens imaginaires. Cette technique occupe l\'esprit de façon apaisante et bloque les pensées anxieuses qui empêchent de dormir.</string>
+
+    <!-- Routine du soir -->
+    <string name="tip_evening_routine_title">Créez un rituel du coucher</string>
+    <string name="tip_evening_routine_desc">Établissez une séquence d\'activités relaxantes 60-90 minutes avant le coucher : bain tiède, lecture, musique douce, étirements légers. Ce rituel régulier signale à votre corps qu\'il est temps de se préparer au sommeil et facilite la transition.</string>
+
+    <string name="tip_dim_lights_title">Tamisez les lumières en soirée</string>
+    <string name="tip_dim_lights_desc">Réduisez progressivement l\'intensité lumineuse de votre environnement 2-3 heures avant le coucher. Utilisez des ampoules chaudes (2700K max), des lampes d\'appoint plutôt que le plafonnier. Cette baisse de luminosité stimule naturellement la production de mélatonine.</string>
+
+    <!-- Activité physique ciblée -->
+    <string name="tip_yoga_sleep_title">Pratiquez le yoga du soir</string>
+    <string name="tip_yoga_sleep_desc">Des postures douces comme l\'enfant, les jambes contre le mur, ou le cadavre favorisent la détente. Le yoga restauratif active le système nerveux parasympathique et prépare le corps au sommeil. Pratiquez 15-20 minutes avant le coucher.</string>
+
+    <string name="tip_progressive_relaxation_title">Relaxation musculaire progressive</string>
+    <string name="tip_progressive_relaxation_desc">Contractez puis relâchez chaque groupe musculaire, des pieds à la tête, en maintenant 5 secondes puis relâchant 10 secondes. Cette technique de Jacobson réduit les tensions physiques et mentales, favorisant un endormissement rapide et profond.</string>
+
+    <!-- Gestion du stress et anxiété -->
+    <string name="tip_journaling_title">Tenez un journal de gratitude</string>
+    <string name="tip_journaling_desc">Chaque soir, notez 3 choses positives de votre journée. Cette pratique réduit l\'anxiété, améliore l\'humeur et favorise un état mental propice au sommeil. Terminez votre journée sur une note positive plutôt que sur vos préoccupations.</string>
+
+    <string name="tip_meditation_title">Méditez avant de dormir</string>
+    <string name="tip_meditation_desc">La méditation de pleine conscience réduit l\'activité mentale et le stress. Commencez par 5-10 minutes : concentrez-vous sur votre respiration, observez vos pensées sans jugement. Des applications guidées peuvent aider les débutants.</string>
+
+    <!-- OBJECTIFS DE SOMMEIL -->
+    <string name="goals_title">Mes objectifs</string>
+    <string name="goals_current">Objectif actuel</string>
+    <string name="goals_all">Tous les objectifs</string>
+    <string name="goals_progress">Progression</string>
+    <string name="goals_activate">Activer cet objectif</string>
+    <string name="goals_deactivate">Désactiver cet objectif</string>
+    <string name="goals_empty">Aucun objectif pour le moment</string>
+    <string name="goals_add">Ajouter un objectif</string>
+
+    <!-- Objectifs de durée -->
+    <string name="goal_8h_title">Dormir 8 heures par nuit</string>
+    <string name="goal_8h_desc">Visez 8 heures de sommeil chaque nuit pour une récupération optimale</string>
+    <string name="goal_8h_target">8h par nuit</string>
+
+    <string name="goal_7h_title">Dormir 7 heures minimum</string>
+    <string name="goal_7h_desc">Assurez-vous d\'obtenir au moins 7 heures de sommeil, le minimum recommandé</string>
+    <string name="goal_7h_target">7h minimum</string>
+
+    <string name="goal_consistent_duration_title">Durée de sommeil régulière</string>
+    <string name="goal_consistent_duration_desc">Maintenez la même durée de sommeil chaque nuit (±30 minutes)</string>
+    <string name="goal_consistent_duration_target">±30 min</string>
+
+    <!-- Objectifs de qualité -->
+    <string name="goal_deep_sleep_title">Augmenter le sommeil profond</string>
+    <string name="goal_deep_sleep_desc">Visez au moins 20% de sommeil profond pour une meilleure récupération physique</string>
+    <string name="goal_deep_sleep_target">20% minimum</string>
+
+    <string name="goal_sleep_efficiency_title">Améliorer l\'efficacité du sommeil</string>
+    <string name="goal_sleep_efficiency_desc">Dormez au moins 85% du temps passé au lit</string>
+    <string name="goal_sleep_efficiency_target">85% efficacité</string>
+
+    <string name="goal_no_interruptions_title">Réduire les réveils nocturnes</string>
+    <string name="goal_no_interruptions_desc">Limitez vos réveils nocturnes à 2 maximum par nuit</string>
+    <string name="goal_no_interruptions_target">Max 2 réveils</string>
+
+    <!-- Objectifs d\'horaires -->
+    <string name="goal_regular_bedtime_title">Horaire de coucher régulier</string>
+    <string name="goal_regular_bedtime_desc">Couchez-vous à la même heure chaque soir (±30 minutes)</string>
+    <string name="goal_regular_bedtime_target">22h30 ±30min</string>
+
+    <string name="goal_regular_wake_title">Heure de réveil constante</string>
+    <string name="goal_regular_wake_desc">Levez-vous à la même heure tous les jours, même le week-end</string>
+    <string name="goal_regular_wake_target">7h00 chaque jour</string>
+
+    <string name="goal_no_snooze_title">Ne plus utiliser le snooze</string>
+    <string name="goal_no_snooze_desc">Levez-vous dès que votre alarme sonne, sans reporter</string>
+    <string name="goal_no_snooze_target">0 snooze</string>
+
+    <string name="goal_early_bedtime_title">Se coucher avant minuit</string>
+    <string name="goal_early_bedtime_desc">Allez au lit avant minuit pour respecter votre rythme circadien naturel</string>
+    <string name="goal_early_bedtime_target">Avant 00h00</string>
+
+    <!-- Objectifs de style de vie -->
+    <string name="goal_no_screens_title">Pas d\'écrans 1h avant le coucher</string>
+    <string name="goal_no_screens_desc">Arrêtez tous les écrans au moins 1 heure avant d\'aller dormir</string>
+    <string name="goal_no_screens_target">1h sans écrans</string>
+
+    <string name="goal_evening_routine_title">Routine du soir régulière</string>
+    <string name="goal_evening_routine_desc">Suivez la même routine relaxante chaque soir pendant 30 minutes</string>
+    <string name="goal_evening_routine_target">30 min de routine</string>
+
+    <string name="goal_no_caffeine_title">Pas de caféine après 14h</string>
+    <string name="goal_no_caffeine_desc">Évitez toute source de caféine après 14h pour ne pas perturber votre sommeil</string>
+    <string name="goal_no_caffeine_target">Après 14h</string>
+
+    <string name="goal_exercise_daily_title">Activité physique quotidienne</string>
+    <string name="goal_exercise_daily_desc">Faites au moins 30 minutes d\'exercice par jour, avant 18h</string>
+    <string name="goal_exercise_daily_target">30 min/jour</string>
+
+    <string name="goal_no_alcohol_title">Pas d\'alcool 3h avant le coucher</string>
+    <string name="goal_no_alcohol_desc">Évitez l\'alcool au moins 3 heures avant d\'aller dormir</string>
+    <string name="goal_no_alcohol_target">3h avant</string>
 </resources>

@@ -1,2 +1,201 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">SleepTracker</string>
+    <string name="app_subtitle">Track your sleep</string>
+    <string name="app_logo">Application logo</string>
+    <string name="background_desc">Background image</string>
+    <string name="dashboard" translatable="false">Dashboard</string>
+    <string name="sleep_score" translatable="false">Sleep score</string>
+    <string name="time_in_bed" translatable="false">Time in bed:</string>
+    <string name="time_asleep" translatable="false">Time Asleep:</string>
+    <string name="deep_sleep" translatable="false">Deep Sleep</string>
+    <string name="light_sleep" translatable="false">Light Sleep</string>
+    <string name="awake" translatable="false">Awake</string>
+    <string name="insights" translatable="false">💡 Insights</string>
+    <string name="tip_icon_desc">Sleep tip icon</string>
+
+    <!-- Professional Sleep Tips -->
+    <!-- Based on CBT-I (Cognitive Behavioral Therapy for Insomnia) -->
+    <!-- and sleep expert recommendations -->
+
+    <!-- REGULAR SCHEDULE (Stimulus Control) -->
+    <string name="tip_regular_schedule_title">Maintain Regular Sleep Hours</string>
+    <string name="tip_regular_schedule_desc">Go to bed and wake up at the same time every day, even on weekends. This regularity strengthens your biological clock and improves sleep quality. Consistency is the key to restorative sleep.</string>
+
+    <string name="tip_wake_time_title">Set a Consistent Wake Time</string>
+    <string name="tip_wake_time_desc">Wake time is more important than bedtime. Always wake up at the same time, even after a poor night's sleep. This discipline helps your body naturally regulate your sleep-wake rhythm.</string>
+
+    <string name="tip_bed_sleep_only_title">Reserve Your Bed for Sleep</string>
+    <string name="tip_bed_sleep_only_desc">Use your bed only for sleep and intimacy. Avoid working, eating, or using screens in bed. This strong mental association between bed and sleep facilitates falling asleep and improves rest quality.</string>
+
+    <!-- SLEEP ENVIRONMENT -->
+    <string name="tip_dark_room_title">Sleep in Complete Darkness</string>
+    <string name="tip_dark_room_desc">Even dim light disrupts melatonin production, the sleep hormone. Use blackout curtains or a sleep mask. Darkness signals your brain that it's time to sleep.</string>
+
+    <string name="tip_temperature_title">Keep a Cool Temperature</string>
+    <string name="tip_temperature_desc">The ideal sleep temperature is between 60°F and 67°F (16°C-19°C). A cool environment promotes the natural drop in body temperature needed for falling asleep. A room that's too warm disrupts deep sleep.</string>
+
+    <string name="tip_quiet_room_title">Create a Quiet Environment</string>
+    <string name="tip_quiet_room_desc">Minimize noise as much as possible. If needed, use earplugs, sound masking (white or pink noise), or a fan. Silence or gentle constant noise promotes uninterrupted, better quality sleep.</string>
+
+    <!-- LIFESTYLE -->
+    <string name="tip_exercise_title">Exercise Regularly</string>
+    <string name="tip_exercise_desc">Physical exercise improves sleep quality and makes falling asleep easier. Prefer morning or afternoon workouts. Avoid intense exercise 3-4 hours before bed as it raises body temperature and stimulates the nervous system.</string>
+
+    <string name="tip_sunlight_title">Get Natural Light Exposure</string>
+    <string name="tip_sunlight_desc">Spend time outdoors, especially in the morning. Daylight regulates your biological clock and strengthens the day-night contrast. 30 minutes of morning exposure significantly improves nighttime sleep quality.</string>
+
+    <string name="tip_screen_time_title">Limit Screen Time Before Bed</string>
+    <string name="tip_screen_time_desc">Stop using screens (phone, tablet, computer, TV) at least 1-2 hours before bedtime. Blue light suppresses melatonin and stimulates the brain. Prefer reading a paper book or relaxing activities.</string>
+
+    <!-- RELAXATION TECHNIQUES -->
+    <string name="tip_relaxation_title">Practice Relaxation Techniques</string>
+    <string name="tip_relaxation_desc">Incorporate a relaxing bedtime routine: deep breathing (4-7-8 method), guided meditation, progressive muscle relaxation, or gentle yoga. These techniques reduce stress and prepare your body and mind for sleep.</string>
+
+    <string name="tip_worry_time_title">Schedule Time for Your Worries</string>
+    <string name="tip_worry_time_desc">Set aside 15 minutes in early evening to write down your concerns and solutions in a journal. This "worry time" technique prevents bedtime rumination and frees your mind for peaceful sleep.</string>
+
+    <!-- NUTRITION AND SUBSTANCES -->
+    <string name="tip_caffeine_title">Avoid Caffeine After 2 PM</string>
+    <string name="tip_caffeine_desc">Caffeine (coffee, tea, cola, chocolate, energy drinks) has a half-life of 5-6 hours. Consumed in the afternoon, it stays in your system and disrupts falling asleep and sleep quality, even if you don't feel it.</string>
+
+    <string name="tip_alcohol_title">Limit Evening Alcohol</string>
+    <string name="tip_alcohol_desc">While alcohol may help you fall asleep, it fragments sleep, reduces REM sleep essential for mental recovery, and causes nighttime awakenings. Avoid alcohol 3-4 hours before bedtime.</string>
+
+    <string name="tip_heavy_meals_title">Avoid Heavy Evening Meals</string>
+    <string name="tip_heavy_meals_desc">Eat light at dinner and finish your meal 2-3 hours before bedtime. Digesting a heavy meal raises body temperature and can cause discomfort, thus disrupting falling asleep and sleep quality.</string>
+
+    <!-- ADVANCED SPECIFIC TIPS -->
+    <string name="tip_sleep_restriction_title">Limit Time in Bed</string>
+    <string name="tip_sleep_restriction_desc">Only stay in bed for the time you actually sleep. If you sleep 6 hours but spend 8 hours in bed, reduce your time in bed to 6.5 hours. This technique increases sleep pressure and improves sleep efficiency. Adjust gradually with a doctor's guidance.</string>
+
+    <string name="tip_no_lying_awake_title">Don't Stay Awake in Bed</string>
+    <string name="tip_no_lying_awake_desc">If you're not asleep after 20 minutes, get up and do a calm activity in another room (gentle reading, light stretching). Return to bed only when you're truly sleepy. This reinforces the bed-sleep association.</string>
+
+    <string name="tip_nap_strategy_title">Manage Naps Intelligently</string>
+    <string name="tip_nap_strategy_desc">If you must nap, limit it to 20-30 minutes maximum and before 3 PM. A short nap improves alertness without affecting nighttime sleep. Long or late naps reduce sleep pressure in the evening.</string>
+
+    <string name="tip_478_breathing_title">4-7-8 Breathing Technique</string>
+    <string name="tip_478_breathing_desc">Breathe in through your nose for 4 seconds, hold your breath for 7 seconds, exhale slowly through your mouth for 8 seconds. Repeat 4 times. This technique activates the parasympathetic nervous system and promotes deep relaxation for falling asleep.</string>
+
+    <string name="tip_coherence_cardiaque_title">Practice Heart Coherence</string>
+    <string name="tip_coherence_cardiaque_desc">Breathe at a rhythm of 5 seconds in and 5 seconds out for 5 minutes. This regular practice (3 times daily) reduces stress, balances the nervous system, and significantly improves sleep quality.</string>
+
+    <string name="tip_night_awakening_title">Handle Night Awakenings Calmly</string>
+    <string name="tip_night_awakening_desc">Brief awakenings are normal. Don't check the time, stay calm, breathe deeply. If you're awake for more than 20 minutes, get up rather than ruminating in bed. Avoid screens and bright light.</string>
+
+    <string name="tip_clock_management_title">Hide Your Clock</string>
+    <string name="tip_clock_management_desc">Don't look at the time during the night. Anxiety about watching hours pass prevents falling back asleep. Turn your clock away or use only an alarm without a visible display. Focus on rest rather than time.</string>
+
+    <string name="tip_mattress_pillow_title">Invest in Good Bedding</string>
+    <string name="tip_mattress_pillow_desc">A comfortable mattress suited to your body type is essential. Replace your mattress every 7-10 years. Choose a pillow that properly supports your neck. Natural fiber sheets (cotton, linen) promote better temperature regulation.</string>
+
+    <string name="tip_bedroom_declutter_title">Declutter Your Bedroom</string>
+    <string name="tip_bedroom_declutter_desc">A tidy, minimalist bedroom promotes mental relaxation. Remove electronic devices, work documents, and stimulating objects. Your bedroom should be a sanctuary dedicated solely to rest and relaxation.</string>
+
+    <string name="tip_sleep_foods_title">Eat Sleep-Promoting Foods</string>
+    <string name="tip_sleep_foods_desc">Certain foods rich in tryptophan, magnesium, and melatonin help sleep: banana, almonds, cherries, kiwi, warm milk, chamomile tea. A light snack 1 hour before bed can prevent hunger-related awakenings.</string>
+
+    <string name="tip_magnesium_title">Check Your Magnesium Intake</string>
+    <string name="tip_magnesium_desc">Magnesium plays a crucial role in muscle relaxation and sleep regulation. Natural sources: green vegetables, nuts, seeds, dark chocolate, bananas. A deficiency can disrupt sleep. Consult a doctor before taking supplements.</string>
+
+    <string name="tip_paradoxical_intention_title">Try Paradoxical Intention</string>
+    <string name="tip_paradoxical_intention_desc">If you struggle to sleep, try staying awake with your eyes open in the dark. This psychological technique reduces performance anxiety related to sleep. Paradoxically, by stopping trying to sleep, you fall asleep more easily.</string>
+
+    <string name="tip_mental_imagery_title">Use Positive Mental Imagery</string>
+    <string name="tip_mental_imagery_desc">Visualize a peaceful and safe place in detail: calm beach, quiet forest, flower garden. Engage all your imaginary senses. This technique occupies the mind in a soothing way and blocks anxious thoughts that prevent sleep.</string>
+
+    <string name="tip_evening_routine_title">Create a Bedtime Ritual</string>
+    <string name="tip_evening_routine_desc">Establish a sequence of relaxing activities 60-90 minutes before bed: warm bath, reading, soft music, light stretching. This regular ritual signals to your body that it's time to prepare for sleep and eases the transition.</string>
+
+    <string name="tip_dim_lights_title">Dim Lights in the Evening</string>
+    <string name="tip_dim_lights_desc">Gradually reduce your environment's light intensity 2-3 hours before bedtime. Use warm bulbs (2700K max), table lamps rather than ceiling lights. This decrease in brightness naturally stimulates melatonin production.</string>
+
+    <string name="tip_yoga_sleep_title">Practice Evening Yoga</string>
+    <string name="tip_yoga_sleep_desc">Gentle poses like child's pose, legs up the wall, or corpse pose promote relaxation. Restorative yoga activates the parasympathetic nervous system and prepares the body for sleep. Practice 15-20 minutes before bed.</string>
+
+    <string name="tip_progressive_relaxation_title">Progressive Muscle Relaxation</string>
+    <string name="tip_progressive_relaxation_desc">Tense then release each muscle group, from feet to head, holding for 5 seconds then releasing for 10 seconds. This Jacobson technique reduces physical and mental tension, promoting rapid and deep sleep onset.</string>
+
+    <string name="tip_journaling_title">Keep a Gratitude Journal</string>
+    <string name="tip_journaling_desc">Each evening, write down 3 positive things from your day. This practice reduces anxiety, improves mood, and promotes a mental state conducive to sleep. End your day on a positive note rather than your worries.</string>
+
+    <string name="tip_meditation_title">Meditate Before Sleep</string>
+    <string name="tip_meditation_desc">Mindfulness meditation reduces mental activity and stress. Start with 5-10 minutes: focus on your breathing, observe your thoughts without judgment. Guided apps can help beginners.</string>
+
+    <!-- SLEEP GOALS -->
+    <string name="goals_title">Sleep Goals</string>
+    <string name="goals_current">Current Goal</string>
+    <string name="goals_all">All Goals</string>
+    <string name="goals_progress">Progress</string>
+    <string name="goals_activate">Activate this goal</string>
+    <string name="goals_deactivate">Deactivate this goal</string>
+    <string name="goals_empty">No goals yet</string>
+    <string name="goals_add">Add a goal</string>
+    <string name="goal_target_label">Target:</string>
+    <string name="goal_progress_label">Progress:</string>
+
+    <!-- Duration Goals -->
+    <string name="goal_8h_title">Sleep 8 Hours Per Night</string>
+    <string name="goal_8h_desc">Aim for 8 hours of sleep each night for optimal recovery</string>
+    <string name="goal_8h_target">8h per night</string>
+
+    <string name="goal_7h_title">Sleep Minimum 7 Hours</string>
+    <string name="goal_7h_desc">Ensure you get at least 7 hours of sleep, the recommended minimum</string>
+    <string name="goal_7h_target">7h minimum</string>
+
+    <string name="goal_consistent_duration_title">Consistent Sleep Duration</string>
+    <string name="goal_consistent_duration_desc">Maintain the same sleep duration every night (±30 minutes)</string>
+    <string name="goal_consistent_duration_target">±30 min</string>
+
+    <!-- Quality Goals -->
+    <string name="goal_deep_sleep_title">Increase Deep Sleep</string>
+    <string name="goal_deep_sleep_desc">Aim for at least 20% deep sleep for better physical recovery</string>
+    <string name="goal_deep_sleep_target">20% minimum</string>
+
+    <string name="goal_sleep_efficiency_title">Improve Sleep Efficiency</string>
+    <string name="goal_sleep_efficiency_desc">Sleep at least 85% of the time spent in bed</string>
+    <string name="goal_sleep_efficiency_target">85% efficiency</string>
+
+    <string name="goal_no_interruptions_title">Reduce Night Awakenings</string>
+    <string name="goal_no_interruptions_desc">Limit your night awakenings to a maximum of 2 per night</string>
+    <string name="goal_no_interruptions_target">Max 2 awakenings</string>
+
+    <!-- Schedule Goals -->
+    <string name="goal_regular_bedtime_title">Regular Bedtime</string>
+    <string name="goal_regular_bedtime_desc">Go to bed at the same time every evening (±30 minutes)</string>
+    <string name="goal_regular_bedtime_target">10:30 PM ±30min</string>
+
+    <string name="goal_regular_wake_title">Consistent Wake Time</string>
+    <string name="goal_regular_wake_desc">Wake up at the same time every day, even on weekends</string>
+    <string name="goal_regular_wake_target">7:00 AM daily</string>
+
+    <string name="goal_no_snooze_title">Stop Using Snooze</string>
+    <string name="goal_no_snooze_desc">Get up as soon as your alarm sounds, without snoozing</string>
+    <string name="goal_no_snooze_target">0 snooze</string>
+
+    <string name="goal_early_bedtime_title">Go to Bed Before Midnight</string>
+    <string name="goal_early_bedtime_desc">Go to bed before midnight to respect your natural circadian rhythm</string>
+    <string name="goal_early_bedtime_target">Before 12:00 AM</string>
+
+    <!-- Lifestyle Goals -->
+    <string name="goal_no_screens_title">No Screens 1h Before Bed</string>
+    <string name="goal_no_screens_desc">Stop all screens at least 1 hour before going to sleep</string>
+    <string name="goal_no_screens_target">1h screen-free</string>
+
+    <string name="goal_evening_routine_title">Regular Evening Routine</string>
+    <string name="goal_evening_routine_desc">Follow the same relaxing routine every evening for 30 minutes</string>
+    <string name="goal_evening_routine_target">30 min routine</string>
+
+    <string name="goal_no_caffeine_title">No Caffeine After 2 PM</string>
+    <string name="goal_no_caffeine_desc">Avoid all caffeine sources after 2 PM to not disrupt your sleep</string>
+    <string name="goal_no_caffeine_target">After 2 PM</string>
+
+    <string name="goal_exercise_daily_title">Daily Physical Activity</string>
+    <string name="goal_exercise_daily_desc">Do at least 30 minutes of exercise per day, before 6 PM</string>
+    <string name="goal_exercise_daily_target">30 min/day</string>
+
+    <string name="goal_no_alcohol_title">No Alcohol 3h Before Bed</string>
+    <string name="goal_no_alcohol_desc">Avoid alcohol at least 3 hours before going to sleep</string>
+    <string name="goal_no_alcohol_target">3h before</string>
+</resources>

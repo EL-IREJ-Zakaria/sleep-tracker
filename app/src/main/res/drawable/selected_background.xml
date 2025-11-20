@@ -4,8 +4,7 @@
     <gradient
         android:startColor="@color/lavender"
         android:endColor="@color/pink_dream"
-        android:type="radial"
-        android:gradientRadius="80dp" />
+        android:angle="45" />
 
     <size
         android:width="60dp"

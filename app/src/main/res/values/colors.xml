@@ -27,9 +27,11 @@
 
     <!-- Functional Colors -->
     <color name="success">#86EFAC</color>                     <!-- Vert doux pour bon sommeil -->
+    <color name="green_success">#10B981</color>               <!-- Vert vif pour succès -->
     <color name="warning">#FCD34D</color>                     <!-- Jaune doux pour avertissements -->
     <color name="error">#FCA5A5</color>                       <!-- Rouge doux pour erreurs -->
     <color name="info">#93C5FD</color>                        <!-- Bleu doux pour information -->
+    <color name="deep_purple">#3B1F6D</color>                 <!-- Violet profond pour backgrounds -->
 
     <!-- Text Colors - High Contrast -->
     <color name="text_primary">#FAF5FF</color>                <!-- Pale Purple - Texte principal -->
