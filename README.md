@@ -132,5 +132,3 @@ Pensez à mettre à jour les screenshots lorsque :
 - La **palette de couleurs** est modifiée
 
 ---
-
-💡 **Astuce** : Gardez une copie des screenshots dans un dossier séparé pour référence future et comparaison des versions.
