@@ -1,5 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+    <!-- ========== PURPLE DREAM NIGHT THEME ========== -->
+
     <style name="Base.Theme.SleepTrackerApp" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/lavender</item>
         <item name="colorPrimaryVariant">@color/night_blue</item>
@@ -11,5 +12,30 @@
         <item name="android:windowBackground">@color/soft_eggplant</item>
         <item name="android:textColor">@color/pale_purple</item>
         <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.SleepTracker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/lavender</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/pale_purple</item>
+        <item name="colorSecondary">@color/pink_dream</item>
+        <item name="colorSecondaryVariant">@color/accent_tertiary</item>
+        <item name="colorOnSecondary">@color/pale_purple</item>
+        <item name="android:colorBackground">@color/soft_eggplant</item>
+        <item name="colorSurface">@color/night_blue</item>
+        <item name="colorOnSurface">@color/pale_purple</item>
+        <item name="colorOnBackground">@color/pale_purple</item>
+        <item name="android:statusBarColor">@color/soft_eggplant</item>
+        <item name="android:navigationBarColor">@color/soft_eggplant</item>
+        <item name="android:windowBackground">@color/soft_eggplant</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:textColor">@color/pale_purple</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorTertiary">@color/text_tertiary</item>
+        <item name="android:textColorHint">@color/text_tertiary</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/pale_purple</item>
     </style>
 </resources>

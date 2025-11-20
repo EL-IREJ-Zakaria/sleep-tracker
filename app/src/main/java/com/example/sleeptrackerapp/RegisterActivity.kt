@@ -84,7 +84,7 @@ class RegisterActivity : AppCompatActivity() {
     private fun validateAge(): Boolean {
         selectedDob?.let { dob ->
             val now = Calendar.getInstance()
-            val eighteenYearsAgo = now.apply {
+            val eighteenYearsAgo = Calendar.getInstance().apply {
                 add(Calendar.YEAR, -18)
             }
 

@@ -13,13 +13,6 @@ import com.google.android.material.textfield.TextInputEditText
 import java.text.SimpleDateFormat
 import java.util.*
 
-private val DashboardActivity?.updateSleepData: Any
-    get() {
-        TODO()
-    }
-
-
-
 class SleepTrackingDialogFragment : DialogFragment() {
 
     private lateinit var etSleepDuration: TextInputEditText
@@ -27,7 +20,7 @@ class SleepTrackingDialogFragment : DialogFragment() {
     private lateinit var btnStartManual: MaterialButton
     private lateinit var btnAddManual: MaterialButton
     private lateinit var tvCurrentTime: TextView
-    private lateinit var timer: CountDownTimer
+    private var timer: CountDownTimer? = null
     private var isTracking = false
 
     override fun onCreateView(
@@ -142,11 +135,11 @@ class SleepTrackingDialogFragment : DialogFragment() {
 
             override fun onFinish() {}
         }
-        timer.start()
+        timer?.start()
     }
 
     private fun stopTimer() {
-        timer.cancel()
+        timer?.cancel()
         tvCurrentTime.text = "Prêt pour le suivi"
     }
 
@@ -187,8 +180,7 @@ class SleepTrackingDialogFragment : DialogFragment() {
         editor.putString("last_sleep_quality", quality)
         editor.apply()
 
-        // Notifier le Dashboard pour mettre à jour l'UI
-        val updateSleepData = (activity as? DashboardActivity)?.updateSleepData
+        // TODO: Implement callback to update Dashboard UI if needed
     }
 
     private fun updateCurrentTime() {
@@ -199,9 +191,8 @@ class SleepTrackingDialogFragment : DialogFragment() {
     override fun onDestroy() {
         super.onDestroy()
         if (isTracking) {
-            timer.cancel()
+            timer?.cancel()
         }
     }
 }
 
-annotation class DashboardActivity

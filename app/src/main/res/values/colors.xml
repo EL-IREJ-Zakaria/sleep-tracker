@@ -1,14 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="soft_eggplant">#2E1065</color>
-    <color name="lavender">#C084FC</color>
-    <color name="pink_dream">#E879F9</color>
-    <color name="night_blue">#4C1D95</color>
-    <color name="pale_purple">#FAF5FF</color>
+    <!-- ========== PURPLE DREAM SLEEP TRACKER PALETTE ========== -->
 
-    <!-- Keeping black for general use if needed, but text should primarily use pale_purple -->
+    <!-- Main Color Palette -->
+    <color name="soft_eggplant">#2E1065</color>               <!-- Fond Principal - Violet très sombre -->
+    <color name="lavender">#C084FC</color>                    <!-- Primaire - Boutons et interactions -->
+    <color name="pink_dream">#E879F9</color>                  <!-- Secondaire - Accents visuels -->
+    <color name="night_blue">#4C1D95</color>                  <!-- Tertiaire - Arrières-plans de cartes -->
+    <color name="pale_purple">#FAF5FF</color>                 <!-- Texte principal - Très clair avec teinte violette -->
+
+    <!-- Primary Background Colors -->
+    <color name="background_primary">#2E1065</color>          <!-- Soft Eggplant - Fond principal -->
+    <color name="background_secondary">#4C1D95</color>        <!-- Night Blue - Cartes et surfaces élevées -->
+    <color name="background_tertiary">#5B21B6</color>         <!-- Variation plus claire pour highlights -->
+
+    <!-- Primary Brand Colors -->
+    <color name="primary">#C084FC</color>                     <!-- Lavender - Couleur principale -->
+    <color name="primary_variant">#A855F7</color>             <!-- Variante plus foncée du lavender -->
+    <color name="primary_light">#DDD6FE</color>               <!-- Lavender plus clair -->
+    <color name="primary_dark">#9333EA</color>                <!-- Lavender plus foncé -->
+
+    <!-- Accent Colors -->
+    <color name="accent_primary">#E879F9</color>              <!-- Pink Dream - Accent principal -->
+    <color name="accent_secondary">#F0ABFC</color>            <!-- Pink Dream plus clair -->
+    <color name="accent_tertiary">#D946EF</color>             <!-- Pink Dream plus foncé -->
+
+    <!-- Functional Colors -->
+    <color name="success">#86EFAC</color>                     <!-- Vert doux pour bon sommeil -->
+    <color name="warning">#FCD34D</color>                     <!-- Jaune doux pour avertissements -->
+    <color name="error">#FCA5A5</color>                       <!-- Rouge doux pour erreurs -->
+    <color name="info">#93C5FD</color>                        <!-- Bleu doux pour information -->
+
+    <!-- Text Colors - High Contrast -->
+    <color name="text_primary">#FAF5FF</color>                <!-- Pale Purple - Texte principal -->
+    <color name="text_secondary">#E9D5FF</color>              <!-- Texte secondaire - Violet très clair -->
+    <color name="text_tertiary">#C4B5FD</color>               <!-- Texte tertiaire - Violet clair -->
+    <color name="text_disabled">#A78BFA</color>               <!-- Texte désactivé -->
+
+    <!-- Surface & Divider Colors -->
+    <color name="surface">#4C1D95</color>                     <!-- Night Blue - Surface pour cartes -->
+    <color name="surface_variant">#5B21B6</color>             <!-- Variante de surface -->
+    <color name="divider">#7C3AED</color>                     <!-- Diviseurs -->
+    <color name="overlay">#2E1065</color>                     <!-- Overlay/scrim -->
+
+    <!-- Icon Colors -->
+    <color name="icon_active">#C084FC</color>                 <!-- Lavender - Icônes actives -->
+    <color name="icon_inactive">#A78BFA</color>               <!-- Icônes inactives -->
+    <color name="icon_unselected">#A78BFA</color>             <!-- Icônes non sélectionnées -->
+
+    <!-- Chart/Graph Colors - Sleep Tracking -->
+    <color name="chart_deep_sleep">#C084FC</color>            <!-- Sommeil profond - Lavender -->
+    <color name="chart_light_sleep">#E879F9</color>           <!-- Sommeil léger - Pink Dream -->
+    <color name="chart_rem_sleep">#A855F7</color>             <!-- Sommeil REM - Violet -->
+    <color name="chart_awake">#FCD34D</color>                 <!-- Éveillé - Jaune -->
+
+    <!-- Gradient Colors for Modern Effects -->
+    <color name="gradient_start">#C084FC</color>              <!-- Lavender -->
+    <color name="gradient_middle">#E879F9</color>             <!-- Pink Dream -->
+    <color name="gradient_end">#A855F7</color>                <!-- Violet -->
+
+    <!-- Legacy/Standard Colors -->
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
-    <color name="icon_unselected">#38194F</color>
-    <color name="purple_primary">purple</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Backward Compatibility -->
+    <color name="purple_primary">#C084FC</color>
+    <color name="accent_cyan">#E879F9</color>
+    <color name="accent_teal">#C084FC</color>
+    <color name="accent_purple">#E879F9</color>
 </resources>

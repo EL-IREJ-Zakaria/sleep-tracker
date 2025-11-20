@@ -151,6 +151,3 @@ class MainActivity : AppCompatActivity(), AccountFragment.LogoutListener {
     }
 }
 
-private fun DashboardFragment.Companion.newInstance(): Fragment {
-    TODO("Not yet implemented")
-}

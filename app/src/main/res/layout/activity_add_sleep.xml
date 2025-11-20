@@ -1,6 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/soft_eggplant"
+    android:padding="24dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/title_add_sleep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ajouter une session"
+            android:textColor="@color/lavender"
+            android:textSize="28sp"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.02"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="20dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/input_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            app:cardBackgroundColor="@color/night_blue"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:layout_constraintTop_toBottomOf="@id/title_add_sleep">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Heure de début"
+                    android:textColor="@color/lavender"
+                    android:textSize="16sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:id="@+id/btn_select_start_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="Sélectionner l'heure"
+                    android:textColor="@color/pale_purple"
+                    android:textSize="14sp"
+                    android:background="@drawable/input_background"
+                    android:textAllCaps="false"
+                    android:layout_marginBottom="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Heure de fin"
+                    android:textColor="@color/lavender"
+                    android:textSize="16sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:layout_marginBottom="8dp"/>
+
+                <Button
+                    android:id="@+id/btn_select_end_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="Sélectionner l'heure"
+                    android:textColor="@color/pale_purple"
+                    android:textSize="14sp"
+                    android:background="@drawable/input_background"
+                    android:textAllCaps="false"
+                    android:layout_marginBottom="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Qualité du sommeil"
+                    android:textColor="@color/lavender"
+                    android:textSize="16sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:layout_marginBottom="8dp"/>
+
+                <Spinner
+                    android:id="@+id/spinner_quality"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:background="@drawable/spinner_background"
+                    android:popupBackground="@color/soft_eggplant"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btn_save_sleep"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Enregistrer"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/soft_eggplant"
+            android:backgroundTint="@color/lavender"
+            android:layout_marginTop="32dp"
+            android:textAllCaps="false"
+            app:cornerRadius="16dp"
+            app:layout_constraintTop_toBottomOf="@id/input_card"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,6 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- ========== PURPLE DREAM SLEEP TRACKER THEME ========== -->
+
     <style name="Theme.SleepTracker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary Brand Colors -->
+        <item name="colorPrimary">@color/lavender</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/pale_purple</item>
+
+        <!-- Secondary/Accent Colors -->
+        <item name="colorSecondary">@color/pink_dream</item>
+        <item name="colorSecondaryVariant">@color/accent_tertiary</item>
+        <item name="colorOnSecondary">@color/pale_purple</item>
+
+        <!-- Background & Surface Colors -->
+        <item name="android:colorBackground">@color/soft_eggplant</item>
+        <item name="colorSurface">@color/night_blue</item>
+        <item name="colorOnSurface">@color/pale_purple</item>
+        <item name="colorOnBackground">@color/pale_purple</item>
+
+        <!-- Status Bar & Navigation -->
+        <item name="android:statusBarColor">@color/soft_eggplant</item>
+        <item name="android:navigationBarColor">@color/soft_eggplant</item>
+        <item name="android:windowBackground">@color/soft_eggplant</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColor">@color/pale_purple</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorTertiary">@color/text_tertiary</item>
+        <item name="android:textColorHint">@color/text_tertiary</item>
+
+        <!-- Error Color -->
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/pale_purple</item>
+
+        <!-- Modern UI Enhancements -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.App.LargeComponent</item>
+
+        <!-- Button Styles -->
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
+
+        <!-- Card Style -->
+        <item name="materialCardViewStyle">@style/Widget.App.CardView</item>
+    </style>
+
+    <!-- ========== MODERN COMPONENT SHAPES ========== -->
+
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="ShapeAppearance.App.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <!-- ========== PURPLE DREAM BUTTON STYLE ========== -->
+
+    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="backgroundTint">@color/lavender</item>
+        <item name="android:textColor">@color/soft_eggplant</item>
+        <item name="iconTint">@color/soft_eggplant</item>
+    </style>
+
+    <style name="Widget.App.Button.Outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="strokeColor">@color/lavender</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="android:textColor">@color/lavender</item>
+    </style>
+
+    <style name="Widget.App.Button.Secondary" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="backgroundTint">@color/pink_dream</item>
+        <item name="android:textColor">@color/soft_eggplant</item>
+        <item name="iconTint">@color/soft_eggplant</item>
+    </style>
+
+    <!-- ========== PURPLE DREAM CARD STYLE ========== -->
+
+    <style name="Widget.App.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/night_blue</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+
+    <!-- ========== TEXT STYLES ========== -->
+
+    <style name="TextAppearance.App.Headline1" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.App.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.App.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="TextAppearance.App.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <!-- ========== SPLASH SCREEN THEME ========== -->
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/soft_eggplant</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- ========== COMPATIBILITY THEMES ========== -->
+
+    <style name="Base.Theme.SleepTrackerApp" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/lavender</item>
         <item name="colorPrimaryVariant">@color/night_blue</item>
         <item name="colorOnPrimary">@color/pale_purple</item>
